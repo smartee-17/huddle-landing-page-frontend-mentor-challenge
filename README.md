@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Huddle landing page challenge solution link ](https://your-solution-url.com)
-- Live Site URL: [Huddle landing page preview](https://your-live-site-url.com)
+- Solution URL: [Huddle landing page challenge solution link ](hhttps://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-single-introductory-0eMYlBc1Qk)
+- Live Site URL: [Huddle landing page preview](https://smartee-17.github.io/huddle-landing-page-frontend-mentor-challenge/huddle-landing-page-with-single-introductory-section-master%20-%20Copy/)
 
 ## My process
 
@@ -54,7 +54,7 @@ Users should be able to:
 - SVG styling: Inline SVGs with the class="icon" allowed hover effects and color changes while respecting prefers-reduced-motion.
 
 - Accessibility: Implemented prefers-reduced-motion media query to respect users who prefer minimal animations.
-Example: 
+- Example: 
 ```css
   @media (prefers-reduced-motion: reduce) {
   .icon {
