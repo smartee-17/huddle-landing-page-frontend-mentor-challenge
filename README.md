@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Huddle landing page challenge solution link ](hhttps://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-single-introductory-0eMYlBc1Qk)
+- Solution URL: [Huddle landing page challenge solution link ](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-single-introductory-0eMYlBc1Qk)
 - Live Site URL: [Huddle landing page preview](https://smartee-17.github.io/huddle-landing-page-frontend-mentor-challenge/huddle-landing-page-with-single-introductory-section-master%20-%20Copy/)
 
 ## My process
