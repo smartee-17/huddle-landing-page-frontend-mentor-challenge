@@ -54,7 +54,7 @@ Users should be able to:
 - SVG styling: Inline SVGs with the class="icon" allowed hover effects and color changes while respecting prefers-reduced-motion.
 
 - Accessibility: Implemented prefers-reduced-motion media query to respect users who prefer minimal animations.
-
+Example: 
 ```css
   @media (prefers-reduced-motion: reduce) {
   .icon {
