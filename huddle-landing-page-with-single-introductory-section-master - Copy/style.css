@@ -1,0 +1,167 @@
+@import url(./root-style.css);
+
+@layer base, components, utilities;
+
+@layer base{
+  *,
+  *::before,
+  *::after{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    min-height: 100vh;
+    font-family: var(--fm);
+    font-size: var(--fs-xs);
+
+    background-color: var(--Purple-700);
+    background-image: var(--bg-url);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main {
+    display: grid;
+    grid-template-columns: var(--grid-tem-main);
+    gap: var(--space-6);
+
+    padding: var(--space-5) var(--space-5);
+  }
+
+  footer{
+    justify-content: space-between;
+    padding: var(--space-6)  var(--space-5);
+    align-items: center;
+  }
+}
+
+@layer components{
+  /* main components starts */
+  .image-head-area{
+    gap: var(--space-6);
+  }
+
+  .logo{
+    width: var(--w-1);
+    height: auto;
+  }
+
+  .ill-mockups{
+    width: 100%;
+    height: auto;
+  }
+
+  /* writeup area */
+
+  article{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .write-up{
+    align-items: var(--ali-writeup);
+    justify-content: center;
+
+    text-align: var(--write-up-text);
+
+    color: whitesmoke;
+  }
+
+  .write-up h1{
+    font-size: var(--fs-xl);
+    width: var(--write-up-width-h1);
+    line-height: 1.5;
+    margin-block-end: var(--space-3);
+  }
+
+  .write-up p{
+    width: var(--write-up-width-p);
+    line-height: 1.5;
+    margin-block-end: var(--space-3)
+  }
+
+  .write-up button{
+    padding: var(--button-pad);
+    border-radius: var(--radius-xxxl);
+    border: none;
+    box-shadow: var(--shadow-3);
+
+    font-family: var(--fm);
+    font-size: var(--fs-xs);
+
+    background-color: whitesmoke;
+    color: var(--Purple-700);
+
+    cursor: pointer;
+  }
+
+  .write-up button:hover{
+    background-color: var(--Magenta-400);
+    color: whitesmoke;
+  }
+
+  /* Footer  starts*/
+  .attribution { 
+    text-align: center; 
+    color: whitesmoke;
+  }
+
+  .attribution a { 
+    color: var(--Magenta-400); 
+  }
+
+  .icon-div{
+    gap: var(--space-3);
+    align-items: center;
+    justify-content: var(--ali-writeup);
+  }
+
+  .icon{
+    width: var(--space-5);
+    height: auto;
+
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  
+  /* Media for preferred motion stuff */
+  @media (prefers-reduced-motion: no-preference) {
+    .icon {
+      transition: color var(--transition-medium);
+    }
+  
+    .icon:hover {
+      color: var( --Magenta-400);
+    }
+
+    .write-up button{
+      transition: background-color var(--transition-medium), color var(--transition-medium);
+    }
+
+    .write-up button:hover{
+      background-color: var(--Magenta-400);
+      color: whitesmoke;
+    }
+
+  
+  }
+
+}
+
+
+@layer utilities{
+  .flex-row{
+    display: flex;
+  }
+
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--space-3);
+  }
+}
